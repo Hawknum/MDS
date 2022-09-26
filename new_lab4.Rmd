@@ -2,7 +2,7 @@
 title: "New_lab4"
 author: "Renzo Wijngaarden"
 date: "2022-09-26"
-output: pdf_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -28,3 +28,19 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Added material:
+
+Next we look at the cars data set and see if we can just look at the speed column.
+
+```{r speed, comment=''}
+
+summary(cars$speed)
+```
+
+Similarly, we can look at the distance column as well!
+
+```{r distance, comment=''}
+
+summary(cars$dist)
+```
