@@ -1,0 +1,37 @@
+---
+title: "Slideshow"
+author: "Renzo Wijngaarden"
+date: "2022-09-26"
+output:   
+    xaringan::moon_reader:
+    css: [metropolis, metropolis-fonts]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Today we're exploring R Markdown files! Let's look at some code that prints a string:
+--
+
+```{r string}
+string <- "This is a string!"
+print(string)
+```
+
+---
+## Data sets
+
+R was created by data scientists, for data scientists! Hence it is mostly used for data sets:
+--
+
+```{r cars, }
+summary(cars)
+```
+
+--
+This is the summary of a data set containing information on different models of cars.
+---
+## This was my presentation, thanks for listening!
